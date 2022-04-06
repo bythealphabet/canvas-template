@@ -1,0 +1,38 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "description": "a template for my react projects",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack serve --env mode=development",
+    "dev:analize": "webpack --env mode=development --env presets=analize",
+    "prod": "webpack",
+    "prod:analize": "webpack --env presets=analize"
+  },
+  "keywords": [
+    "react7",
+    "webpack5"
+  ],
+  "author": "Isaac Lucas",
+  "license": "MIT",
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.5.0",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.64.4",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
